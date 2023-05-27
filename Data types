@@ -2,4 +2,9 @@ String - A string is a sequence of characters within "1" or ""2"" pairs of quota
 Integer - An integer is data type that is any whole number positive, negative and zero. These numerical values can be used for mathematical operations, counting and indexing.
 Boolean - A boolean is a data type that is a logical true or false(comparision)
 Float - a float is a data type with a numerical value that has a decimal in it.
-
+Function - a block of reusable code that can be called
+Object an instance of a class in object iriented programming
+Array - collection of values of the same type
+Dictionary - a collection of key-value pairs
+Class - a blueprint for creating objects in object- oriented programing
+Set - an unorderedcollection of unique elements
