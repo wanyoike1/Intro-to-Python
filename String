@@ -1,0 +1,12 @@
+Definition : A string a *datatype* in programming that represents a sequence of characters. Strings are inside "1" or ""2"" pairs of quotations.
+What is it?  A string is *used* to store and manipulate textual data in programming. Strings can contain letters "A", numbers "1", symbols "@" and whitespace "" ""
+Common Mistakes : ""Forgetting to enclose string in quotes. ""Mixing single and double quotes". 
+Pros : Storing and manipulating textual data, such as names, addresses, sentences and paragraphs. String concatenation (Combining to strings), String Splitting, Formatting and Manipulation. Text processing, parsing and regular expressions.
+Cons : Strings are not good at performing numerical calculations and *datatypes* such as integers or floats are more suitable.
+Real-Life Use : Storing user input and collecting user data in a web application. Processing and manipulating text data from a text file or a database. Building a chatbot or natural language processing application that requires working with textual data.
+Code Implementation :  Creating string. my_string = "Hello, World!"
+Concatenating strings : greeting = "Hello"
+name = "John"
+message = greeting + ", " + name + "!"
+print(message)  # Output: Hello, John!
+
