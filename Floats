@@ -1,0 +1,14 @@
+Definition : A floating-point number is a *DT* in programming that represents decimal or fractional numbers. Floats are used to sture and manipulate numbers with a fractional part.
+What is it? Floats are used for mathematical operations that invlolve non-integer values such as division square roots and trigonometric functions
+Common Mistakes : Rounding errors and precision loss due to the limitations of floating-point representation. Incoreectly comparing floats for equality due to rounding errors.
+Pros : Storing and manipulating numbers with decimal or fractional parts. Performing mathematical operations like addition, subtraction, multiplication and division with non-integer values. Representing measurements, coordinates or any real-world quantity that requires precision beyond whole numbers.
+Cons : Representing exact values or quantities that require arbitrary precision. For such cases specialized libraries or *DT* may be needed. Comparing floats for equality due to rounding errors.  For such cases use a Tolerance or compare withing a specific range.
+Real-Life Use : Calculating and representing physical measurements such as temperature, weight or distance. Financial calculations involving currencies and decimal values. Scientific simulations, data analysis and numerical computations that prequire precision beyond whole numbers.
+Code Implimentation in Python: Assigning a float my_float + 3.14 
+a = 3.5
+b = 1.2
+sum = a + b  # Addition
+difference = a - b  # Subtraction
+product = a * b  # Multiplication
+quotient = a / b  # Division
+power = a ** b  # Exponentiation
