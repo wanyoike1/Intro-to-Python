@@ -1,0 +1,16 @@
+Definition : An integer is a *datatype* in programming that represents whole numbers without fractional or decimal part. Integers can be positive, negative or 0.
+What is it? Integers are a *DT* used for counting, indexing, mathematical operations and logical comparisions.
+Common Mistakes : Incorrectly using quotes when assigning integer values (X) my_integer = '10' instead of (@) my_integer = 10. Permorming division and expecting integer result but getting a float instead.
+Pros : Counting and indexing elements in lists, arrays, or other data structures. Performing mathematical operations like, additions, subtraction, multiplication and division. Representing numerical values that do not have a fractional part.
+Cons : Representing fractional or decimal numbers.(Use float *DT*) Storing very large or versy small numbers that exceed the limits of the integer *DT*
+Real- Life Use : Counting items in a shopping cart or inventory, tracking scores, points or quantities in a game or simulation
+Code Implementation : Assigning an integer my_integer = 42 
+Mathematical operations 
+a = 10 
+b = 5
+sum = a + b  # Addition
+difference = a - b  # Subtraction
+product = a * b  # Multiplication
+quotient = a / b  # Division
+remainder = a % b  # Modulo (remainder)
+
