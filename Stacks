@@ -1,0 +1,26 @@
+Definition: A stack is a linear **DS** tha follows the Last-in_First-Out(LIFO) principle. It allows operations at one end, called the top, including pushing (adding) elementsonto the stack and popping (removing) elements from the stack.
+What is it? A stack is a collection of elements with two main operations: push and pop. It follows the LIFO principle, where the last element added to the stack is the first one to be removed. Elements can only be added or removed from the top of the stack.
+Common Mistakes: #1 not checking for an empty stack: Popping an element from an empty stack can lead to errors. Check if stack is empty before performing a pop operation. #2 Forgetting to update the top pointer: When pushing or popping elements from the stack, update the top pointer to reflect the current position accuretly.
+Pros: #1 Managing function calls and nested function invocations #2 Evaluating expressions and solving problems that require a Last-In-First-Out order, such as undo?redo functionality #3 Balancing parentheses, checking for proper syntax, and performing depth-first search (DFS) algorithims.
+Cons: #1 Efficent random access to elements (only the top element can be accessed directly) #2 Insertions or deletion of elements (only the top element can be manipulated). 
+Real-Life Use: A stack can be used in a web browser's navigation history to store the sequence of web pages visited. Each new ime a page is visited, it is added to the stack. When the user clicks the "back" button, the top page is popped from the stack to navigate to the previous page.
+Code implementation 
+# Creating an empty stack
+stack = []
+
+# Pushing elements onto the stack
+stack.append(1)
+stack.append(2)
+stack.append(3)
+
+# Popping elements from the stack
+top_element = stack.pop()
+print(top_element)  # Output: 3
+
+# Accessing the top element without removing it
+top_element = stack[-1]
+print(top_element)  # Output: 2
+
+# Checking if the stack is empty
+is_empty = len(stack) == 0
+print(is_empty)     # Output: False
