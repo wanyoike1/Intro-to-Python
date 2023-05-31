@@ -1,0 +1,31 @@
+A Boolean is a *DT* in programming that represents two possible values. True or False
+Booleans are used for logical operations, conditional statements and decision - making in programs
+Common Mistakes: Confusing assignment(=) with equality comparision(==) when checking for boolean conditions. Incorrectly using boolean operators(and,or,not) due to misunderstanding their precedence or behavior.
+Pros: Evaluating conditions and making decisions based on the result. Controlling the flow of a program using conditional statementd(if, while,for). Boolean Algebra and Logical Operations (and,or,not) for complex conditions.
+Cons: Storing numerical values or performing mathematical calculations directly. For that, numeric *DTs* like integers or floats are used.
+Storing multiple values or representing complex *DS*. For that, *DS* like lists, dictionaries, or classes are used.
+Real-Life Use: Evaluating conditions in an application to determine whether a user is logged in or not. Checking the availability of a product in an online store (I.e True if available, False if not). Implementing a voting system where the boolean represents whether a user has voted or not.
+Coding Implementation: 
+#1 Assigning a boolean 
+is_logged_in = True
+is_admin = False
+#2 Comparisions
+a = 5
+b = 10
+is_greater = a > b  # False
+is_equal = a == b  # False
+is_not_equal = a != b  # True
+#3 Logical operators
+x = True
+y = False
+result_and = x and y  # False (logical AND)
+result_or = x or y  # True (logical OR)
+result_not = not x  # False (logical NOT)
+#4 Conditional Statements
+is_raining = True
+if is_raining:
+    print("Take an umbrella!")
+else:
+    print("Enjoy the sunshine!")
+
+
