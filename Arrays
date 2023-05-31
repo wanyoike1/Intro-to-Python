@@ -1,0 +1,28 @@
+Definitions: An array is a fixed-size **DS** that stores a collection of elements of the same *DT*. It provides random access to elements using an index.
+What is it: An array is a homogeneous **DS** that holds a fixed number of elements, all of the same *DT*. The elements are stored in contigious memory locations. and each element can be accessed directly using its index.
+Common Mistakes: (Index out of bounds): #1 Accessing or modifying elements outside the valid index range can lead to runtime errors or unexpected behaviour. It's important to ensure that the index is within the bounds of the array. #2 Not initializing the array: For some programming languages, arrays need to be explicitly initialized before they can be used. Forgetting to initialize the. array can result in errors or garbage values.
+Pros: #1 Storing and accessing a collection of elements with a fixed size #2 Efficent random access to elements using index. Implementing algorithims that require constant-time acces to elements.
+Cons: #1 Dynamically resizing the collection (the size is fixed upon creation). #2 Insetions or deletions of elements at arbitrary positions (inefficent)
+Real-Life Use: An array can be used to store a series of temperature values recorded at diffrent time intervals. Each element of the array represents a temperature value at a specific time index.
+Code Implementation: 
+# Importing the array module
+from array import array
+
+# Creating an integer array
+my_array = array('i', [1, 2, 3, 4, 5])
+
+# Accessing elements
+print(my_array[0])   # Output: 1
+print(my_array[3])   # Output: 4
+
+# Modifying elements
+my_array[2] = 10
+print(my_array)      # Output: array('i', [1, 2, 10, 4, 5])
+
+# Array methods
+print(len(my_array))         # Output: 5
+print(my_array.index(4))     # Output: 3
+my_array.append(6)
+print(my_array)              # Output: array('i', [1, 2, 10, 4, 5, 6])
+my_array.remove(2)
+print(my_array)              # Output: array('i', [1, 10, 4, 5, 6])
